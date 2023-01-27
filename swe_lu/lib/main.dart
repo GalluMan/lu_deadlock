@@ -3,11 +3,15 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:swe_lu/app/views/tt.dart';
 
 import 'app/views/login_page.dart';
+import 'app/views/opening_page.dart';
 import 'app/views/register_page.dart';
 import 'app/views/regester_page._teacher.dart';
 import 'package:get/get.dart';
 import 'app/views/Teacherlist.dart';
+import 'app/views/student_page_tf.dart';
 import 'app/views/tt.dart';
+import 'app/views/payementTeacher.dart';
+
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -36,6 +40,9 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: LoginViee());
+        home: stud_page());
+            //OpenFirstPage());
+
+    // home: TeacherListAll());
   }
 }

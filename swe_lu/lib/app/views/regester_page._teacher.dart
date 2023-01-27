@@ -6,6 +6,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:swe_lu/app/views/teacher_login.dart';
 import 'package:swe_lu/services/authenthication.dart';
 
 import 'login_page.dart';
@@ -118,7 +119,7 @@ class RegistrationPageStudentTeacher extends StatelessWidget {
                 ),
                 TextButton(
                     onPressed: () {
-                      Get.to(LoginPage());
+                      Get.to(TeacherLogIn());
                     },
                     child: Text("Already have an accoutnt, Log in here")),
               ],

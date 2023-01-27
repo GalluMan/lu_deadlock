@@ -3,19 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:get/get.dart';
 
 import '../../services/authenthication.dart';
-import 'Teacherlist.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class TeacherLogIn extends StatefulWidget {
+  const TeacherLogIn({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<TeacherLogIn> createState() => _TeacherLogInState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _TeacherLogInState extends State<TeacherLogIn> {
   @override
   Widget build(BuildContext context) {
     TextEditingController emailController = TextEditingController();
@@ -74,9 +72,6 @@ class _LoginPageState extends State<LoginPage> {
                       print("Password chaking brother");
                     }
                   }
-
-                  //some task is missing
-                  //  Get.to(TeacherList());
                 },
                 child: Text("Submit"),
               ),

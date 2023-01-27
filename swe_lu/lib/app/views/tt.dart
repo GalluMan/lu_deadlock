@@ -3,12 +3,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class TeacherList extends StatefulWidget {
+class LoginViee extends StatefulWidget {
   @override
-  State<TeacherList> createState() => Teacherlist();
+  State<LoginViee> createState() => Teacherlist();
 }
 
-class Teacherlist extends State<TeacherList> {
+class Teacherlist extends State<LoginViee> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,22 +31,15 @@ class Teacherlist extends State<TeacherList> {
                     shrinkWrap: true,
                     itemCount: snapshot.data!.docs.length,
                     itemBuilder: (context, index) {
-                      String a;
+                      String e;
                       DocumentSnapshot doc = snapshot.data!.docs[index];
-                      a = doc['name'];
-                      if (doc['Subject'] == 'Toc') {
-                        return Row(
-                          children: <Widget>[
-                            Expanded(
-                              child: Text(doc['name']),
-                            ),
-                            Expanded(
-                              child: Text(doc['Subject']),
-                            )
-                          ],
-                        );
-                      }
-                      return ScaffoldMessenger(child: Text("Course not Fund"));
+                      e = doc['name'];
+                      return Column(
+                        children: [
+                          doc['Subject'] == 'Toc' ? Text(e) : Text("ab")
+                        ],
+                      );
+                      
                     });
               } else {
                 return Text("No datasss");
