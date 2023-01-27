@@ -44,27 +44,7 @@ class _stud_pageState extends State<stud_page> {
                       ),
                     ),
                   ),
-                  // Container(
-                  //   height: 75,
-                  // width: 60,
-                  //color: Colors.amber,
-
-                  //   child: ElevatedButton(
-                  //     child: Icon(
-                  //       Icons.search,
-                  //       size: 35,
-                  //     ),
-                  //     style: ElevatedButton.styleFrom(
-                  //       shape: RoundedRectangleBorder(
-                  //         borderRadius: BorderRadius.circular(50),
-                  //         // <-- Radius
-                  //       ),
-                  //     ),
-                  //     onPressed: () {
-                  //       //getFetchData(searchHandeler.text);
-                  //     },
-                  //   ),
-                  // ),
+                   
                   SizedBox(
                     width: 10,
                   )

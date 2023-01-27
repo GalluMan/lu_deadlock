@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:swe_lu/services/authenthication.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'login_page.dart';
+import '../views/login_page.dart';
 
 class RegistrationPageStudent extends StatelessWidget {
   TextEditingController emailController = TextEditingController();
@@ -114,6 +114,7 @@ class RegistrationPageStudent extends StatelessWidget {
                             lastnamecontroler.text,
                             emailController.text,
                             passwordController.text);
+                        Get.to(LoginPage());
                       },
                       child: Text(
                         "submit",

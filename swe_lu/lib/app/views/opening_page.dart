@@ -4,7 +4,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:swe_lu/app/views/login_page.dart';
 import 'package:swe_lu/app/views/regester_page._teacher.dart';
-import 'package:swe_lu/app/views/register_page.dart';
+import 'package:swe_lu/app/Student/register_page.dart';
 
 class OpenFirstPage extends StatefulWidget {
   const OpenFirstPage({super.key});
