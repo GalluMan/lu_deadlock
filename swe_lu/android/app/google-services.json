@@ -1,33 +1,57 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "425088741945",
     "project_id": "lu-deadlock-1945d",
     "storage_bucket": "lu-deadlock-1945d.appspot.com"
+=======
+    "project_number": "361228241034",
+    "project_id": "lu-deadlock-9a220",
+    "storage_bucket": "lu-deadlock-9a220.appspot.com"
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:425088741945:android:458501b7a2c75d29bf93e8",
         "android_client_info": {
           "package_name": "com.example.swe_lu"
+=======
+        "mobilesdk_app_id": "1:361228241034:android:6a119858f28712e296c573",
+        "android_client_info": {
+          "package_name": "com.android.application"
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "425088741945-rrolutfqi00b2444bpscaqhotudfgn7v.apps.googleusercontent.com",
+=======
+          "client_id": "361228241034-ssrn35a2oh9rla1c9b1iubbjr334emcl.apps.googleusercontent.com",
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyB-zs55eCMRL_D8Giqq5ywY4cTJz3JfiHE"
+=======
+          "current_key": "AIzaSyCiFFOcenEYCKNvzfXmFerGr7_GBWnTWvA"
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "425088741945-rrolutfqi00b2444bpscaqhotudfgn7v.apps.googleusercontent.com",
+=======
+              "client_id": "361228241034-ssrn35a2oh9rla1c9b1iubbjr334emcl.apps.googleusercontent.com",
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
               "client_type": 3
             }
           ]

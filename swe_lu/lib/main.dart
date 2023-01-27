@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
+<<<<<<< HEAD
 import 'app/views/login_page.dart';
 import 'app/views/register_page.dart';
 import 'app/views/regester_page._teacher.dart';
 import 'package:get/get.dart';
 import 'app/views/Teacherlist.dart';
+=======
+>>>>>>> a133d4293ad8f940acfaedbc3effffa269e0de76
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
