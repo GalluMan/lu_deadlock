@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425088741945",
+    "project_id": "lu-deadlock-1945d",
+    "storage_bucket": "lu-deadlock-1945d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425088741945:android:458501b7a2c75d29bf93e8",
+        "android_client_info": {
+          "package_name": "com.example.swe_lu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425088741945-rrolutfqi00b2444bpscaqhotudfgn7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-zs55eCMRL_D8Giqq5ywY4cTJz3JfiHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425088741945-rrolutfqi00b2444bpscaqhotudfgn7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
